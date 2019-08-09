@@ -2,13 +2,13 @@
 title: "공정모니터링 App"
 excerpt: "자동화 장비의 오류 감지 및 모니터링 시스템"
 header:
-  image: /assets/images/portfolio2/0.png
+  image: /assets/images/portfolio2/th.png
   teaser: /assets/images/portfolio2/0.png
 sidebar:
   - title: "Architecture"
     image: /assets/images/portfolio2/arch.png
     image_alt: "architecture"
-    text: "Android + Arduino IP Cam, wifi + Node.js"
+    text: "Android + Arduino IP Cam, wifi + Node.js Server"
   - title: "Used Skills"
     text: "JAVA, Node.js, Firebase"
 gallery:

@@ -7,5 +7,5 @@ entries_layout: grid
 classes: wide
 ---
 
-박능엄 포트폴리오
+포트폴리오 정리
 

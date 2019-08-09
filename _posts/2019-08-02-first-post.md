@@ -1,22 +1,18 @@
 ---
-title:  "github.io 블로그 시작하기ddd"
-excerpt: "GitHub Blog 서비스인 github.io 블로그 시작하기로 했다."
+title:  "블로그 첫 글"
+excerpt: "github.io에 구축한 블로그에 첫 게시물."
 
 categories:
   - Blog
 tags:
   - Blog
-last_modified_at: 2019-08-02T08:06:00-05:00
+last_modified_at: 2019-08-09
 ---
 
-GitHub Blog 서비스인 github.io 블로그 시작하기로 했다.
-GitHub Blog 서비스의 이름은 Pages이다.
+이제 블로그를 시작해보려 한다.
 
-Pages가 다른 블로그 플랫폼 보다 편한 것 같아서 마음에 든다.
-다른 사람들도 같이 많이 사용했으면 좋겠다는 생각이 든다.
+markdown은 trello를 이용해서 많이 써본터라 친숙하다.
 
-YFM에서 정의한 제목을 이중 괄호 구문으로 본문에 추가할 수 있다.
-이 글의 제목은 {{ page.title }}이고
-마지막으로 수정된 시간은 {{ page.last_modified_at }}이다.
+git도 써야하니 github page는 개발자가 쓰기엔 정말 좋은 것 같다.
 
-테스트테스트!!
+~~매일매일...~~ 적어도 일주일에 세 번씩 포스팅을 해보는 것을 목표로 시작해본다!!
