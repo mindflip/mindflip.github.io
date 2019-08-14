@@ -28,7 +28,7 @@ gallery:
     alt: "app image 7"
 ---
 
-{% include gallery caption="경북대학교 EMR 연동 앱 스크린샷" %}
+{% include gallery caption="농민사관학교 출석 앱 스크린샷" %}
 
 - 출석을 위한 안드로이드, iOS App 개발
 - App과 DB 연동을 위한 REST API 개발
