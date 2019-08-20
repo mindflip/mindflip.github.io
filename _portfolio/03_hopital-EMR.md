@@ -40,6 +40,5 @@ gallery:
 - Network 연결은 계속 유지시키기 때문에 Singleton pattern으로 구현
 - 진료 예약, 진료 예약 확인, 사용자 정보 갱신 등 모든 요청을 query string을 이용하여 처리
 - 응답은 XML 형식으로 받아와 simpleXML 라이브러리를 이용해 파싱
-
 - 임시로 Node.js 를 이용해 릴레이 (Query string 그대로 다시 EMR 서버에 요청) 서버 구축
 - 실제 DMZ 단에 들어가는 서버는 JAVA Tomcat 서버로 구현(다른 연구원이 개발)

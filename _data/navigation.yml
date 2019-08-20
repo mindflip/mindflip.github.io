@@ -4,6 +4,8 @@ main:
     url: https://mindflip.github.io/
   - title: "About"
     url: /about/
+  - title: "Categories"
+    url: /categories/
   - title: "Portfolio"
     url: /portfolio/
   # - title: "Sample Collections"
