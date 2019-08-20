@@ -5,10 +5,10 @@ excerpt: "버전별 특징 및 버전 점유율"
 categories:
   - Android
 
-# last_modified_at: 2019-08-20T18:30:00
+last_modified_at: 2019-08-20T18:30:00
 ---
 
-![version](/assets/images/posts/190820_AndroidVersion/version.png)
+![version](/assets/images/posts/190820/version.png)
 
 - 안드로이드는 구글과 [오픈 핸드셋 얼라이언스(OHA)](https://ko.wikipedia.org/wiki/%EC%98%A4%ED%94%88_%ED%95%B8%EB%93%9C%EC%85%8B_%EC%96%BC%EB%9D%BC%EC%9D%B4%EC%96%B8%EC%8A%A4)가 함께 개발한 모바일 중심의 운영체제
 - 위의 안드로이드 공식페이지에서는 1.0, 1.1이 no codename 으로 나오지만, 비공식적으로 각각 ```애플 파이(apple pie) or 아스트로 보이(astro boy) / 프티 푸르(Petit Four) or 바나나 브레드(banana bread)``` 라고 불렸다고 한다.
@@ -27,7 +27,7 @@ categories:
 
 - 버전 별 점유율 (현재 2019. 08. 20)
 - 오레오, 누가, 마시멜로 순으로 최고 점유율
-![distribution](/assets/images/posts/190820_AndroidVersion/chart.png)
+![distribution](/assets/images/posts/190820/chart.png)
 
 ----
 
