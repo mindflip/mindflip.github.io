@@ -59,5 +59,5 @@ public class ExampleActivity extends Activity {
 
 ----
 **ref :**  
-[android developer docs - Activity Fundamentals](https://developer.android.com/guide/components/activities.html)  
+[android developer docs - Activity lifecycle](https://developer.android.com/guide/components/activities.html)  
 
