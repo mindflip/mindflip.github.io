@@ -12,6 +12,33 @@ last_modified_at: 2019-08-23T18:30:00
 - 컴포넌트를 서비스에 바인드하여 서비스와 상호작용 가능, 프로세스 간 통신(IPC) 수행 가능
 
 ----
+서비스의 두 가지 형식
+- Started service
+  - 컴포넌트가 `startService()` 호출하여 시작
+  - 한 번 시작되면 백그라운드에서 무기한으로 실행 가능
+  - 서비스를 시작한 컴포넌트의 소멸에 관계 없음
+  - 작업이 완료되면 `stopSelf()`를 호출하여 스스로 알아서 중단하는 것이 정상, 아니면 다른 구성 요소가 `stopService()`를 호출하여 중단
+
+- Bound service
+  - 컴포넌트가 `bindService()` 호출하여 해당 서비스에 바인드(bind)
+  - `onBind()` 콜백 메서드를 구현하여 서비스와의 통신을 위한 인터페이스를 정의하는 IBinder를 반환
+  - client-server 인터페이스 제공하여 컴포넌트-서비스 상호작용
+  - 클라이언트가 서비스와의 상호작용을 완료하면 이는 `unbindService()`를 호출하여 바인딩을 해제
+  
+
+컴포넌트가 서비스 시작 : `onStartCommand()`  
+컴포넌트가 바인딩 허용 : `onBind()`
+
+## Managing the lifecycle of a service
+
+![serviceLifecycle](/assets/images/posts/190823/service_lifecycle.png)
+- 서비스의 전체 수명 주기 `onCreate()` ~ `onDestroy()`
+- 서비스의 활성 수명 주기는 `onStartCommand()` 또는 `onBind()`에 대한 호출로 시작
+  - 각 메서드에 Intent가 전달되며 이것은 각각 `startService()` 또는 `bindService()`에 전달된 것
+
+
+
+----
 **ref :**  
-[android developer docs - Activity lifecycle](https://developer.android.com/guide/components/activities.html)  
+[android developer docs - Services overview](https://developer.android.com/guide/components/services)  
 
