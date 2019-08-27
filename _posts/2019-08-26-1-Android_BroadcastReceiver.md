@@ -67,6 +67,24 @@ IntentFilter filter = new IntentFilter(ConnectivityManager.CONNECTIVITY_ACTION);
 - ex) Application context에 등록했다면 app이 실행중에는 항상 broadcast receive
 - broadcast receive를 중단하고 싶다면 `unregisterReceiver(android.content.BroadcastReceiver)` 호출
 
+
+## Sending broadcasts
+안드로이드는 broadcast를 보내는 세 방법을 제공:
+- `sendOrderedBroadcast(Intent, String)` 한 순간에 하나의 리시버에만 broacast
+- `sendBroadcast(Intent)` 정해져있지 않은 순서로 모든 리시버에게 broadcast (Normal Broadcast)
+- `LocalBroadcastManager.sendBroadcast` sender와 같은 앱에 있는 리시버에게 broadcast
+
+```java
+Intent intent = new Intent();
+intent.setAction("com.example.broadcast.MY_NOTIFICATION");
+intent.putExtra("data","Notice me senpai!");
+sendBroadcast(intent);
+```
+
+- 브로드캐스트 메시지는 Intent 객체에 wrapped
+- Intent 의 action 문자열은 java 패키지와 브로드캐스트 이벤트를 구분할 unique id를 제공해야 함
+- `putExtra(String, Bundle)`을 사용해 추가적인 정보를 intent에 추가
+
 ----
 **ref :**  
 [android developer docs - Broadcast overview](https://developer.android.com/guide/components/broadcasts)
