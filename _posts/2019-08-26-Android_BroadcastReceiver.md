@@ -1,5 +1,5 @@
 ---
-title:  "Andorid Broadcast Receiver"
+title:  "[Andorid] Broadcast Receiver"
 excerpt: "안드로이드 브로드캐스트 리시버"
 
 categories:

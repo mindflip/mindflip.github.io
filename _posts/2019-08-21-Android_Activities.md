@@ -1,5 +1,5 @@
 ---
-title:  "Andorid Activities"
+title:  "[Andorid] Activities"
 excerpt: "안드로이드 액티비티"
 
 categories:

@@ -1,5 +1,5 @@
 ---
-title:  "Andorid Content Providers"
+title:  "[Andorid] Content Providers"
 excerpt: "안드로이드 컨텐트 프로바이더"
 
 categories:
@@ -20,10 +20,10 @@ last_modified_at: 2019-08-28T19:30:00
 5. 원하는 앱의 ContentProvider 접근은 Manifest 파일에 authorities 설정
 
 ```xml
- <application>
-      <provider android:name=".provider.DataProvider"
-          android:authorities="arabiannight.tistory.com.contentproviderdataa" />
- </application>
+<application>
+    <provider android:name=".provider.DataProvider"
+        android:authorities="eomy.github.com.contentproviderdata" />
+</application>
 ```
 
 

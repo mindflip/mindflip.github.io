@@ -1,5 +1,5 @@
 ---
-title:  "Andorid Gradle"
+title:  "[Andorid] Gradle"
 excerpt: "안드로이드 Gradle 개념 및 특징"
 
 categories:
