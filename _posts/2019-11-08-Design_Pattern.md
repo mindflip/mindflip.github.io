@@ -47,5 +47,6 @@ last_modified_at: 2019-11-08T18:30:00
 ----
 **ref :**  
 [[WPF] MVC, MVP, MVVM 차이점](https://hackersstudy.tistory.com/71)  
-[](https://beomy.tistory.com/43)
+[[디자인패턴] MVC, MVP, MVVM 비교](https://beomy.tistory.com/43)
+[MVC vs. MVP vs. MVVM](https://academy.realm.io/kr/posts/eric-maxwell-mvc-mvp-and-mvvm-on-android/)
 
