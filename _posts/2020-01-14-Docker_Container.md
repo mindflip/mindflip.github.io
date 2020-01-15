@@ -23,7 +23,7 @@ docker info       // most config values of engine
 - 같은 이미지를 이용해 많은 컨테이너 실행 가능
 
 ```bash
-docker containerr run --publish 80:80 nginx  
+docker container run --publish 80:80 nginx  
 // nginx를 Docker hub에서 다운로드
 // 이미지를 이용해 컨테이너 실행
 // host ip 에서 80 포트 사용
