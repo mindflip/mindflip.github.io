@@ -1,5 +1,5 @@
 ---
-title: "박능엄 (Park Neungum)"
+title: "박능엄 (Park Neungeom)"
 permalink: /about/
 layout: single
 ---
