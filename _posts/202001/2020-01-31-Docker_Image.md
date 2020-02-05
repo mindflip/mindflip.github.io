@@ -39,10 +39,10 @@ last_modified_at: 2020-01-31T19:00:00
 FROM (base image)  
 ENV (environment variable)  
 RUN (any arbitrary shell command)  
-EXPOSE (open port from container to virtual network) • CMD (command to run when container starts)  
+EXPOSE (open port from container to virtual network)
+CMD (command to run when container starts)  
 docker image build (create image from Dockerfile)  
 ```
-
 
 ----
 **ref**  
