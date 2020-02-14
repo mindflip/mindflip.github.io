@@ -10,10 +10,11 @@ last_modified_at: 2020-02-06T19:30:00
 
 - 이미지는 read-only  
 -> 컨테이너에 저장되는 데이터는 컨테이너가 삭제되면 함께 삭제
-- 데이터를 영속적으로 사용할 수 있는 방법 : **Volume**
+- 데이터를 지속적으로 사용할 수 있는 방법 : **Volume**
 
 ### Persistent data: Data Volumes
-- 이미지 도커파일에 VOLUMES 정의된 경우, 데이터가 영구적으로 저장될 경로 생성 및 지정 (docker가 실행되는 vm 상의 경로)
+- 이미지 도커파일에 VOLUMES 정의된 경우, 데이터가 영구적으로 저장될 경로 생성 및 지정  
+(container가 실행되는 docker vm 상의 경로)
 - Image inspect 로 volume 경로 확인 가능
 - 이미 생성된 volume 경로로 이미지 생성 가능
 - Volume ls 이용하여 이제까지 생성된 volume 확인 가능
@@ -38,8 +39,10 @@ colon 오른쪽엔 호스트로부터 컨테이너에 매핑하고 싶은 디렉
 - 호스트에서 사용하는 파일에 접근하는 컨테이너에서 서비스 러닝할 때 필요  
 서버 로그를 확인한다거나 할 때, 컨테이너에 접근할 필요 없이 로컬에 바인딩된 폴더/파일로 바로 접근 가능
 
+![types of mounts](/assets/images/posts/200206/types-of-mounts.png)
 
 ----
 **ref**  
+[Manage data in Docker](https://docs.docker.com/storage/)  
 [Docker 정리 #3 (도커 볼륨)](https://jungwoon.github.io/docker/2019/01/13/Docker-3/)  
 [volume container 추가하기](https://joont92.github.io/docker/volume-container-%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0/)
