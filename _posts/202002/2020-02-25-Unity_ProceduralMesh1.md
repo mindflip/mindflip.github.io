@@ -1,6 +1,6 @@
 ---
-title:  "[Unity] Procedural Mesh"
-excerpt: "Rendering Basics"
+title:  "[Unity] Procedural Mesh (1)"
+excerpt: "Mesh Basics"
 
 categories:
   - Unity
