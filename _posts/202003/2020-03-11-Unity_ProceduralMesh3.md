@@ -94,6 +94,10 @@ void MakeFace(int dir, float faceScale, Vector3 facePos)
 - 각 면에 대한 triangle 2개를 구현하는 함수
 - 각 면에 대한 vertex가 4개씩 추가되기 때문에 (vCount - 4) 적용
 
+| ![cube](/assets/images/posts/200311/cube.png) |
+|:--:|
+| Cube |
+
 ----
 **ref**  
 [Procedural Mesh Tutorial, Part 8: Cube Basics](https://www.youtube.com/watch?v=bnmr_At2R0s)  
