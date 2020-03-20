@@ -44,7 +44,7 @@ while(iEnumeratorOfString.MoveNext())
 ```
 
 - 컬렉션을 통해 연속적으로 반복문을 동작하고 싶을 때 IEnumerable 사용
-- 현재 커서 위치과 데이터를 이용해야할 때는 IEnumerator 사용
+- 현재 커서 위치와 데이터를 이용해야할 때는 ㄴIEnumerator 사용
 
 ----
 
