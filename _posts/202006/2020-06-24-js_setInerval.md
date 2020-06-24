@@ -9,9 +9,9 @@ last_modified_at: 2020-06-24T18:30:00
 ---
 
 ### WindowOrWorkerGlobalScope
-- Wev APIs의 Interface
-- Window, WorkerGlobalScope 두 가지 interface에 공통 특징을 뽑아 구성
-- setTimeout, setInterval 등의 스케쥴링에 관련된 메서드 존재
+- Web APIs의 Interface
+- Window, WorkerGlobalScope 두 가지 interface에 공통 특징을 추려내어 구성
+- setTimeout, setInterval 등의 스케쥴링에 관련된 메서드가 구현되어 있음
 
 ### setInterval
 - `var intervalID = scope.setInterval(func, [delay, arg1, arg2, ...]);`
