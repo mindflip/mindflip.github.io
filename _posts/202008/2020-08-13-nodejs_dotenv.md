@@ -11,7 +11,7 @@ last_modified_at: 2020-08-13T19:00:00
 
 ### 환경변수
 - 특정 process를 위한 key-value 형태의 변수
-- 환경변수에 따라 개발/운영/테스트 구분하여 관리 가능
+- 환경변수에 따라 개발/운영/테스트 구분하여 관리 가능
 
 ### process.env
 - Node로 실행한 앱에는 process라는 변수에 다양한 정보 존재
@@ -82,10 +82,8 @@ will print out 'developmentPicked'
 */
 ```
 
-- 사용예시)
-- jest script 설정을 아래와 같이 작성 후 테스팅
-- `NODE_ENV=test jest --watchAll`
-- 위의 환경변수에 맞춰 test database config 설정
+- .env 파일에 설정정보 저장
+- deployment 방식에 따라 해당하는 `.env` 호출
 
 ----
 **ref :**  
