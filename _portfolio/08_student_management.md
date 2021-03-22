@@ -3,7 +3,7 @@ title: "학생 숙제관리 시스템"
 excerpt: "학생들의 숙제 점수를 매기고, 현황을 그래프로 체크"
 header:
   image: /assets/images/portfolio8/0.png
-  teaser: /assets/images/portfolio8/th3.png
+  teaser: /assets/images/portfolio8/th.png
 sidebar:
   - title: "Architecture"
     image: /assets/images/portfolio8/arch.png
