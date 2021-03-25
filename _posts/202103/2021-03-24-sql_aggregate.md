@@ -1,5 +1,5 @@
 ---
-title:  "[RDBMS] SQL Agregate Function"
+title:  "[RDBMS] SQL Aggregate Function"
 excerpt: "SQL 집계함수 정리"
 
 categories:
