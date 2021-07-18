@@ -32,5 +32,5 @@ gallery:
 - MongoDB 이용하여 숙제, 학생, 학생점수 등 데이터 관리
 - Mongoose 모듈 사용하여 DB와 통신
 - 선생님 인증을 위한 passport 모듈 사용
-- EJS 이용한 프론트엔드 구현 (vue.js로 컨버팅 예정)
+- EJS 이용한 프론트엔드 구현
 - chart.js 이용한 학생 점수 시각화
